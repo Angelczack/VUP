@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to my website !!!</title>
+    <link rel="stylesheet" href="./3D.css">
+    <link rel="icon" href="https://virtualup.cn/wp-content/uploads/2021/05/cropped-512x512-1-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://virtualup.cn/wp-content/uploads/2021/05/cropped-512x512-1-192x192.png"
+        sizes="192x192" />
+
+  <!-- live 2d  -->
+        <link rel="stylesheet" type="text/css" href="assets/waifu.css"/>
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <!-- recommed -->
+
+    <a href="#">
+      <div class="re">
+        <img src="./img3d/fank.png" alt="">
+      </div>
+    </a>
+    <!-- banner -->
+    <div class="top-bg">
+    <!-- 表单 -->
+    <form action="#" method="get" class="top-form">
+       
+        <input type="text" placeholder="              VUP教程" class="input1">
+        <input type="hidden" class="input2">
+     <a href="#"><i><img src="./img3d/search.png" alt=""></i></a>
+    </form>
+    </div>
+    <div class="con">
+        <!-- title -->
+        <img src="./img3d/title.png" alt="" style="display: block; margin:0 auto;">
+        <!-- text -->
+        <div class="text">
+            <div>在这里,您可以获取VUP的使用教程,并反馈您遇到的问题</div>
+            <div>如果您想快速了解VUP，并且想掌握一些使用诀窍的话,不</div>
+            <div>
+                妨看看我们的 “
+                <span style="color:rgb(82,207,242) ;">新手教程</span>
+                ”吧
+            </div>
+            <div class="lis">
+
+              <a href="" class="a-top" style="background: url(./img3d/pinkbox.png);background-size: 100% 100%;">
+                <img src="./img3d/set.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word">系统设置</div>
+                <div class="lis-bottom-word">VUP窗口设置语言修改等系统教程</div>
+              </a>
+
+              <a href="" class="a-top" style="background: url(./img3d/bluebox.png);background-size: 100% 100%;">
+                <img src="./img3d/rile.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word" style="color: rgb(111,202,236);">角色</div>
+                <div class="lis-bottom-word" style="color: rgb(111,202,236);">
+                    角色、表情
+                    <br>
+                    Pose自定义</div>
+              </a>
+
+              <a href="" class="a-top"style="background: url(./img3d/pinkbox.png);background-size: 100% 100%;">
+                <img src="./img3d/shot.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word">镜头</div>
+                <div class="lis-bottom-word">编辑、删除VUP镜头模块教程</div>
+              </a>
+
+              <a href="" class="a-top" style="background:url(./img3d/bluebox.png); background-size: 100% 100%;">
+                <img src="./img3d/running.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word" style="color: rgb(111,202,236);">动作</div>
+                <div class="lis-bottom-word" style="color: rgb(111,202,236);">导入动作、自定义动作快捷键</div>
+            </a>
+
+              <a href="" style="margin-top: 25px; background: url(./img3d/pinkbox.png);background-size: 100% 100%;" class="a-bottom">
+                <img src="./img3d/configuration.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word">快捷键</div>
+                <div class="lis-bottom-word">自定义快捷键镜头过渡</div>
+            </a>
+
+              <a href="" style="margin-top: 25px; background: url(./img3d/bluebox.png); background-size: 100% 100%;" class="a-bottom">
+                <img src="./img3d/scene.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word" style="color: rgb(111,202,236);">场景</div>
+                <div class="lis-bottom-word" style="color: rgb(111,202,236);">导入场景、 调整场景 参数、实时场景</div>
+            </a>
+
+              <a href="" style="margin-top: 25px; background: url(./img3d/pinkbox.png);background-size: 100% 100%;" class="a-bottom">
+                <img src="./img3d/live.png" alt="" style="width: 144px; height:144px;">
+                <div class="lis-center-word">直播</div>
+                <div class="lis-bottom-word">面捕、动捕声捕,直播玩法</div>
+            </a>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- live 2d -->
+    <div class="waifu">
+      <div class="waifu-tips"></div>
+      <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+      <div class="waifu-tool">
+          <span class="fui-home"></span>
+          <span class="fui-chat"></span>
+          <span class="fui-eye"></span>
+          <span class="fui-user"></span>
+          <span class="fui-photo"></span>
+          <span class="fui-info-circle"></span>
+          <span class="fui-cross"></span>
+      </div>
+  </div>
+
+
+<!-- live 2d -->
+  <script src="assets/waifu-tips.js"></script>
+  <script src="assets/live2d.js"></script>
+  <script type="text/javascript">initModel("assets/")</script>
+</body>
+</html>

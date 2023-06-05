@@ -1,0 +1,691 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    /* background-color: #fa76a4; */
+    overflow: hidden;
+}
+
+.header .header-img{
+    display:block;
+    width: 138px;
+    height: 65px;
+    float: left;
+    margin-left: 200px;
+    /* background-color: aquamarine; */
+}
+.header .header-word{
+    width: 384px;
+    height: 60px;
+    float: left;
+    /* background-color: bisque; */
+}
+.header .header-word ul{
+width: 216px;
+height: 32px;
+margin: 14px auto;
+overflow: hidden;
+/* background-color: lightgreen; */
+}
+.header .header-word li{
+    float: left;
+    line-height: 32px;
+}
+
+/* 标题2 */
+.top{
+    width: 100%;
+    height: 55px;
+    /* background-color: aqua; */
+}
+
+.top .top-left{
+    width: 1500px;
+    height: 55px;
+    /* background-color: #fa76a4; */
+    float: left;
+}
+.top .top-left ul{
+    width: 588px;
+    height: 55px;
+    margin-left: 210px;
+    /* background-color: #9a9a9a; */
+}
+.top .top-left ul .xuni{
+    width: 57px;
+    height: 55px;
+}
+.top .top-left li{
+    width: 40px;
+    height: 55px;
+    float: left;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+.top .top-left li a{
+    color: #323232;
+    font-size: 14px;
+    line-height: 55px;
+}
+.top .top-right{
+    width: 74px;
+    height: 55px;
+    float: right;
+    background-color: lightseagreen;
+}
+.top .top-right a{
+    display: block;
+    margin: 13px auto;
+    width: 74px;
+    height: 28px;
+    background-color: #fa76a4;
+}
+
+
+/* 排序 */
+.top2{
+    width: 100%;
+    height: 155px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    /* background-image: url(https://virtualup.cn/wp-content/uploads/2021/07/外链图.png); */
+    /* -webkit-filter: blur(25px); */
+    z-index: -1;
+}
+.top2 .box{
+    width: 1500px;
+    height: 85px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 186.5px;    
+    background-color: aqua;
+    overflow: hidden;
+}
+
+/* 排序按钮 */
+.top2 .box .box-button{
+    display: block;
+    float: left;
+    width: 72px;
+    height: 33px;
+    background-color: #fa76a4;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 26px;
+    }
+
+    /* 搜索框 */
+    .top2 .box .box-search{
+        width: 260px;
+        height: 33px;
+        float: left;
+        margin-left: 20px;
+        margin-top: 26px;
+        background-color: chartreuse;
+    }
+
+    /* 全部标签 */
+    .top2 .box .all{
+        width: 88px;
+        height: 33px;
+        background-color: #fa76a4;
+        float: left;
+        margin-left: 20px;
+        margin-top: 26px;
+    }
+
+    /* vtuber */
+    .top2 .box .vtuber{
+        width: 58px;
+        height: 26px;
+        background-color: #fa76a4;
+        float: left;
+        margin-left: 20px;
+        margin-top: 29.5px;
+        border-radius: 10px;
+    }
+
+    /* vup */
+    .top2 .box .vup{
+        width: 41px;
+        height: 26px;
+        background-color: #fa76a4;
+        float: left;
+        margin-left: 20px;
+        margin-top: 29.5px;
+        border-radius: 10px;
+    }
+
+    /* vup表情大户 */
+    .top2 .box .emoji-vup{
+        width: 100px;
+        height: 26px;
+        background-color: #fa76a4;
+        float: left;
+        margin-left: 20px;
+        margin-top: 29.5px;
+        border-radius: 10px;
+    }
+
+    /* 彩虹社 */
+    .top2 .box .rainbow{
+        width: 56px;
+        height: 26px;
+        background-color: #fa76a4;
+        float: left;
+        margin-left: 20px;
+        margin-top: 29.5px;
+        border-radius: 10px;
+    }
+    /* 分享 */
+    .top2 .box h1{
+        width: 44px;
+        height: 32px;
+        background-color: pink;
+        float: right;
+        display: block;
+        margin-top: 26.5px;
+    }
+
+
+    /* 中间主体 */
+    .center{
+        width: 100%;
+        height: 1471px;
+        margin-top: 50px;
+        /* background-color: #fa76a4; */
+    }
+.center-ul-1{
+        width: 1500px;
+        height: 290px;
+        margin: 0 auto;
+    }
+.center-ul-1 li{
+        width: 232px;
+        height: 280px;
+        float: left;
+    }
+.center-ul-1 li .li-box{
+        width: 232px;
+        height: 280px;
+    }
+.center-ul-1 li .li-box .li-box-top{
+        width: 232px;
+        height: 165px;
+        margin-bottom:10px;
+    }
+.center-ul-1 li .li-box .li-box-top img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+.center-ul-1 li .li-box .li-box-bottom{
+        width: 232px;
+        height: 105px;
+    }
+.center-ul-1 .li-box .li-box-bottom h2{
+        width: 195px;
+        height: 56px;
+        display: block; 
+        margin: 0 auto;
+        font-size: 16px;
+    }
+.center-ul-1 li .li-box .li-box-bottom .number{
+        width: 232px;
+        height: 19px;
+        margin: 0 auto;
+    }
+.center-ul-1 li .li-box .li-box-bottom .number .live2d{float: left; margin-left: 15px;}
+.center-ul-1 li .li-box .li-box-bottom .number .heart-and-eye{
+        float: right;
+        margin-right: 15px;
+    }
+.center-ul-1 li .li-box .li-box-bottom .number .heart-and-eye .love{float: left;}
+.center-ul-1 li .li-box .li-box-bottom .number .heart-and-eye .heart-and-eye-p{
+        font-size: 6px;
+        color: #9a9a9a;
+    }
+    .center-ul-1 li .li-box .li-box-bottom .number .heart-and-eye .eye{float: left; margin-left: 15px;}
+    .center-ul-1 li .li-box .li-box-bottom .username{
+        width: 234px;
+        height: 35px;
+        margin-top: 5px;
+    }
+.center-ul-1 li .li-box .li-box-bottom .username .username-img{
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-left: 7px;
+        margin-top: -3px;
+    }
+.center-ul-1 li .li-box .li-box-bottom .username .username-p{width: 50px; height: 35px;float: left;text-align: center; line-height: 35px;}
+.center-ul-1 li .li-box .li-box-bottom .username .username-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .center-ul-1 li .li-box .li-box-bottom .username .days{
+        width: 80px;
+        height: 35px;
+        float: right;
+        margin-right: 15px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 35px;
+        color: #323232;
+    }
+
+
+
+
+
+    /* 第二行 */
+    .center-ul-2{
+        width: 1500px;
+        height: 290px;
+        margin: 20px auto;
+    }
+.center-ul-2 li{
+        width: 232px;
+        height: 280px;
+        float: left;
+    }
+.center-ul-2 li .li-box{
+        width: 232px;
+        height: 280px;
+    }
+.center-ul-2 li .li-box .li-box-top{
+        width: 232px;
+        height: 165px;
+        margin-bottom:10px;
+    }
+.center-ul-2 li .li-box .li-box-top img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+.center-ul-2 li .li-box .li-box-bottom{
+        width: 232px;
+        height: 105px;
+    }
+.center-ul-2 li .li-box .li-box-bottom h2{
+        width: 195px;
+        height: 56px;
+        display: block; 
+        margin: 0 auto;
+        font-size: 16px;
+    }
+.center-ul-2 li .li-box .li-box-bottom .number{
+        width: 232px;
+        height: 19px;
+        margin: 0 auto;
+    }
+.center-ul-2 li .li-box .li-box-bottom .number .live2d{float: left; margin-left: 15px;}
+.center-ul-2 li .li-box .li-box-bottom .number .heart-and-eye{
+        float: right;
+        margin-right: 15px;
+    }
+.center-ul-2 li .li-box .li-box-bottom .number .heart-and-eye .love{float: left;}
+.center-ul-2 li .li-box .li-box-bottom .number .heart-and-eye .heart-and-eye-p{
+        font-size: 6px;
+        color: #9a9a9a;
+    }
+    .center-ul-2 li .li-box .li-box-bottom .number .heart-and-eye .eye{float: left; margin-left: 15px;}
+    .center-ul-2 li .li-box .li-box-bottom .username{
+        width: 234px;
+        height: 35px;
+        margin-top: 5px;
+    }
+.center-ul-2 li .li-box .li-box-bottom .username .username-img{
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-left: 7px;
+        margin-top: -3px;
+    }
+.center-ul-2 li .li-box .li-box-bottom .username .username-p{width: 50px; height: 35px;float: left;text-align: center; line-height: 35px;}
+.center-ul-2 li .li-box .li-box-bottom .username .username-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .center-ul-2 li .li-box .li-box-bottom .username .days{
+        width: 80px;
+        height: 35px;
+        float: right;
+        margin-right: 15px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 35px;
+        color: #323232;
+    }
+
+
+
+
+
+
+     /* 第三行 */
+     .center-ul-3{
+        width: 1500px;
+        height: 290px;
+        margin: 20px auto;
+    }
+.center-ul-3 li{
+        width: 232px;
+        height: 280px;
+        float: left;
+    }
+.center-ul-3 li .li-box{
+        width: 232px;
+        height: 280px;
+    }
+.center-ul-3 li .li-box .li-box-top{
+        width: 232px;
+        height: 165px;
+        margin-bottom:10px;
+    }
+.center-ul-3 li .li-box .li-box-top img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+.center-ul-3 li .li-box .li-box-bottom{
+        width: 232px;
+        height: 105px;
+    }
+.center-ul-3 li .li-box .li-box-bottom h2{
+        width: 195px;
+        height: 56px;
+        display: block; 
+        margin: 0 auto;
+        font-size: 16px;
+    }
+.center-ul-3 li .li-box .li-box-bottom .number{
+        width: 232px;
+        height: 19px;
+        margin: 0 auto;
+    }
+.center-ul-3 li .li-box .li-box-bottom .number .live2d{float: left; margin-left: 15px;}
+.center-ul-3 li .li-box .li-box-bottom .number .heart-and-eye{
+        float: right;
+        margin-right: 15px;
+    }
+.center-ul-3 li .li-box .li-box-bottom .number .heart-and-eye .love{float: left;}
+.center-ul-3 li .li-box .li-box-bottom .number .heart-and-eye .heart-and-eye-p{
+        font-size: 6px;
+        color: #9a9a9a;
+    }
+    .center-ul-3 li .li-box .li-box-bottom .number .heart-and-eye .eye{float: left; margin-left: 15px;}
+    .center-ul-3 li .li-box .li-box-bottom .username{
+        width: 234px;
+        height: 35px;
+        margin-top: 5px;
+    }
+.center-ul-3 li .li-box .li-box-bottom .username .username-img{
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-left: 7px;
+        margin-top: -3px;
+    }
+.center-ul-3 li .li-box .li-box-bottom .username .username-p{width: 50px; height: 35px;float: left;text-align: center; line-height: 35px;}
+.center-ul-3 li .li-box .li-box-bottom .username .username-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .center-ul-3 li .li-box .li-box-bottom .username .days{
+        width: 80px;
+        height: 35px;
+        float: right;
+        margin-right: 15px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 35px;
+        color: #323232;
+    }
+
+
+
+
+
+
+
+    /* 第四行 */
+    .center-ul-4{
+        width: 1500px;
+        height: 290px;
+        margin: 20px auto;
+    }
+.center-ul-4 li{
+        width: 232px;
+        height: 280px;
+        float: left;
+    }
+.center-ul-4 li .li-box{
+        width: 232px;
+        height: 280px;
+    }
+.center-ul-4 li .li-box .li-box-top{
+        width: 232px;
+        height: 165px;
+        margin-bottom:10px;
+    }
+.center-ul-4 li .li-box .li-box-top img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+.center-ul-4 li .li-box .li-box-bottom{
+        width: 232px;
+        height: 105px;
+    }
+.center-ul-4 li .li-box .li-box-bottom h2{
+        width: 195px;
+        height: 56px;
+        display: block; 
+        margin: 0 auto;
+        font-size: 16px;
+    }
+.center-ul-4 li .li-box .li-box-bottom .number{
+        width: 232px;
+        height: 19px;
+        margin: 0 auto;
+    }
+.center-ul-4 li .li-box .li-box-bottom .number .live2d{float: left; margin-left: 15px;}
+.center-ul-4 li .li-box .li-box-bottom .number .heart-and-eye{
+        float: right;
+        margin-right: 15px;
+    }
+.center-ul-4 li .li-box .li-box-bottom .number .heart-and-eye .love{float: left;}
+.center-ul-4 li .li-box .li-box-bottom .number .heart-and-eye .heart-and-eye-p{
+        font-size: 6px;
+        color: #9a9a9a;
+    }
+    .center-ul-4 li .li-box .li-box-bottom .number .heart-and-eye .eye{float: left; margin-left: 15px;}
+    .center-ul-4 li .li-box .li-box-bottom .username{
+        width: 234px;
+        height: 35px;
+        margin-top: 5px;
+    }
+.center-ul-4 li .li-box .li-box-bottom .username .username-img{
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-left: 7px;
+        margin-top: -3px;
+    }
+.center-ul-4 li .li-box .li-box-bottom .username .username-p{width: 50px; height: 35px;float: left;text-align: center; line-height: 35px;}
+.center-ul-4 li .li-box .li-box-bottom .username .username-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .center-ul-4 li .li-box .li-box-bottom .username .days{
+        width: 80px;
+        height: 35px;
+        float: right;
+        margin-right: 15px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 35px;
+        color: #323232;
+    }
+
+
+
+
+
+
+
+
+
+
+   /* 尾页 */
+.footer{
+    width: 1800px;
+    height: 211px;
+    margin-top: 70px;
+    margin: 0 auto;
+}
+.footer .box{
+    width: 100%;
+    height: 211px;
+    margin: 0 auto;
+    /* margin-left: 192px; */
+}
+.footer .box .footer-box-1{
+    width: 238px;
+    height: 211px;
+    float: left;
+    margin-left: 141px;
+}
+.footer .box .footer-box-2{
+    width: 166px;
+    height: 211px;
+    float: left;
+    margin-left: 30px;
+}
+.footer .box .footer-box-3{
+    width: 166px;
+    height: 211px;
+    float: left;
+    margin-left: 30px;
+}
+.footer .box .footer-box-4{
+    width: 166px;
+    height: 211px;
+    float: left;
+    margin-left: 30px;
+}
+.footer .box .footer-box-5{
+    width: 166px;
+    height: 211px;
+    float: left;
+    margin-left: 30px;
+}
+.footer .box .footer-box-6{
+    width: 250px;
+    height: 211px;
+    float: left;
+    margin-left: 30px;
+}
+.footer .box .footer-box-6 .biaoti{
+    width: 250px;
+    height: 51px;
+}
+.footer .box .footer-box-6 .logo{
+    width: 230px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer .box .footer-box-6 .logo ul{
+    width: 230px;
+    height: 125px;
+}
+.footer .box .footer-box-6 .logo li{
+    float: left;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.footer .box .footer-box-6 .logo a{
+    color: #323232;
+}
+.footer .box .footer-box-6 .logo a:hover{
+    color: #fff;
+    transition: all 0.5s;
+}
+.footer .box .footer-box-7{
+    width: 206px;
+    height: 211px;
+    float: left;
+    margin-left: 30px;
+}
+.footer .box .footer-box-7 .img{
+    width: 166px;
+    height: 166px;
+    margin: 20px auto;
+}
+.footer .box .footer-box-7 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 最底部 */
+.footer-nav{
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+}
+.footer-nav .box{
+    width: 1500px;
+    height: 60px;
+    margin-left: 151px;
+    color: #323232;
+}
+.footer-nav .box .word{
+    width: 620px;
+    height: 20px;
+}
+.footer-nav .box .word .word-left{
+    width: 265px;
+    height: 18px;
+    font-size: 12px;
+    float: left;
+}
+.footer-nav .box .word .word-right{
+    width: 354px;
+    height: 18px;
+    float: left;
+    margin-top: -5px;
+    margin-left: -15px;
+    font-size: 12px;
+}
+.footer-nav .box .word .word-right .img{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+.footer-nav .box .word .word-right .img img{
+    width: 100%;
+    height: 100%;
+}

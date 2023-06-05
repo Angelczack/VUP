@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to website !!!</title>
+    
+    <style>
+         body {
+        padding: 0;
+        margin: 0;
+        background-image: url(./teach-pic/background.jpg);
+        background-size: 100% 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      .box {
+        margin: 0 auto;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .box > a {
+        width: 40%;
+        transition: transform 0.2s ease-out;
+      }
+      .box > a:hover {
+        transform: scale(1.1);
+      }
+      .box > a > img {
+        width: 100%;
+      }
+      .d3 {
+        color: #fa84bb;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      .d2 {
+        color: #7387ce;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      @media screen and (max-width: 767px) {
+        .d3 {
+          font-size: 12px;
+        }
+        .d2 {
+          font-size: 12px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="../3D文件/3D.html">
+          <img src="./teach-pic/3D.png" alt="" />
+          <div class="d3">3D模式</div>
+        </a>
+        <a href="./2d.html">
+          <img src="./teach-pic/2D.png" alt="" />
+          <div class="d2">2D模式</div>
+        </a>
+      </div>
+</body>
+</html>

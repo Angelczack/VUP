@@ -1,0 +1,648 @@
+/*
+Theme Name:     B2子主题
+Theme URI:      http: //7b2.com/
+Description:    Child theme for the seven
+Author:         sifei
+Author URI:     http: //7b2.com/
+Template:       b2
+Version:        0.1.5
+*/
+.t1{
+  color: #6992c8 !important;
+}
+.t2{
+  color: #e3b184 !important;
+}
+.t3{
+  color: #c77594 !important;
+}
+.t4{
+  color: #c07cc4 !important;
+}
+.img_icon{
+  width: 86px;
+  height: auto;
+}
+#msg {
+  background-color: #fff;
+  width: 30%;
+  border-radius: 10px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px #000;
+  z-index: 9999;
+  overflow: hidden;
+  height: 100px;
+  text-align: center;
+}
+#msg > span {
+  line-height: 100px;
+}
+#msg1 {
+  height: 2rem;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  margin-top: -1rem;
+  line-height: 2rem;
+  width: 100%;
+  z-index: 10000;
+}
+#msg1 span {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  height: 2rem;
+  display: inline-block;
+  padding: 0 3rem;
+  border-radius: 5px;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  right: 0;
+  background-color: #ff6fa2;
+  border-bottom-left-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
+  color: #fff;
+}
+.sure {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #ff6fa2;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.aside-container {
+  display: none !important;
+}
+.social-top .header-banner-content {
+  height: 100%;
+}
+.social-top .header-logo {
+  height: 58px;
+  box-sizing: border-box;
+}
+/*下面是您自己DIY的css样式代码*/
+.recomUser,
+.createUser {
+  margin-top: 30px;
+}
+.recomUser ul {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-left: -15px;
+}
+.recomUser ul li {
+  width: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+.recomUser ul .item {
+  display: block;
+  transition: all 0.3s;
+}
+.recomUser ul .item:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+.recomUser ul .item .warp {
+  padding: 15px;
+  display: flex;
+}
+.recomUser .post-modules-top {
+  flex-flow: nowrap;
+  align-items: center;
+  padding: 30px 0;
+}
+.recomUser .post-modules-top .modules-title-box {
+  padding: 0;
+  flex: 1;
+}
+.recomUser ul .item .warp .ava {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.recomUser ul .item .warp .ava img {
+  width: 100%;
+  height: 100%;
+}
+.recomUser ul .item .warp .info {
+  flex: 1;
+  margin-left: 15px;
+}
+.recomUser ul .item .warp .info .name a {
+  display: flex;
+}
+.recomUser ul .item .warp .info .name span {
+  display: inline-block;
+}
+.recomUser ul .item .warp .info .name b {
+  transform: scale(0.8);
+  border-radius: 3px;
+  display: inline-block;
+  background: linear-gradient(180.03deg, #393f68 0%, #24263c 100%);
+  padding: 3px 6px;
+  font-size: 11px;
+  line-height: 15px;
+}
+.recomUser ul .item .warp .info .desc {
+  display: flex;
+  font-size: 12px;
+  padding: 5px 6px;
+  margin: 10px 0;
+  color: #606266;
+}
+.recomUser ul .item .warp .info .count {
+  font-size: 12px;
+  display: flex;
+}
+.recomUser ul .item .warp .info .count span {
+  color: #909399;
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+.recomUser ul .item .warp .info .count span:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0;
+  height: 11px;
+  width: 1px;
+  background: #e3e4e5;
+}
+.recomUser ul .item .warp .info .count span:last-child:after {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.recomUser,
+.createUser .post-list .module-title {
+  font-size: 26px;
+  font-weight: normal;
+}
+.recomUser,
+.createUser .post-modules-top .more {
+  font-size: 13px;
+  flex: 1;
+  text-align: right;
+}
+
+/* lunbotu */
+.lunbo {
+  display: flex;
+  width: 1500px;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  justify-content: space-around;
+}
+.lunbo > a {
+  width: 20%;
+  transition: transform 0.1s linear;
+  line-height: 0;
+}
+.lunbo > a > img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  image-rendering: auto;
+}
+.lunbo > a:hover {
+  box-shadow: 5px 5px 10px #aaa;
+  transform: scale(1.1);
+}
+/* @media screen and (max-width: 1024px) {
+  .lunbo > img:hover {
+    box-shadow: 5px 5px 10px #aaa;
+    transform: scale(1);
+  }
+} */
+#playBox {
+  max-width: 100%;
+  height: 365px;
+  margin: 0 200px 100px;
+}
+@media screen and (max-width: 1700px) {
+  #playBox {
+    max-width: 100%;
+    height: 350px;
+    margin: 0 auto 100px;
+  }
+}
+#imgList {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+#imgList img {
+  width: 250px;
+  height: auto;
+}
+.ula {
+  list-style: none;
+  height: 360px;
+}
+.ula > li {
+  text-align: center;
+  width: 400px;
+  position: absolute;
+  transition: all 0.3s linear;
+}
+.left {
+  position: absolute;
+  width: 50px !important;
+  top: 120px;
+  left: -100px;
+}
+.right {
+  position: absolute;
+  width: 50px !important;
+  top: 120px;
+  right: -100px;
+}
+.textas {
+  opacity: 0;
+}
+.xcurrent2 > .textas {
+  opacity: 1 !important;
+}
+.xcurrent {
+  opacity: 0.3;
+  transform: scale(0.5);
+  left: 0;
+}
+.xcurrent1 {
+  opacity: 0.5;
+  transform: scale(0.8);
+  left: 225px;
+}
+.xcurrent2 {
+  opacity: 1;
+  transform: scale(1);
+  left: 450px;
+}
+.xcurrent3 {
+  opacity: 0.5;
+  transform: scale(0.8);
+  left: 675px;
+}
+.xcurrent4 {
+  opacity: 0.3;
+  transform: scale(0.5);
+  left: 900px;
+}
+
+.createUser {
+  /* min-height: 550px; */
+}
+.createUser .wrapper {
+  height: auto;
+}
+.createUser ul {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-left: -15px;
+}
+.createUser ul li {
+  display: block;
+  width: 25%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.createUser ul li .item {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #aaa;
+  margin-top: 20px;
+}
+.createUser ul li .item .img {
+  width: 100%;
+  height: 270px;
+}
+.createUser ul li .item .img img {
+  width: 100%;
+  height: 100%;
+}
+.createUser ul li .item .text {
+  padding: 16px 25px;
+}
+.sjs {
+  margin-bottom: 10px;
+}
+.sjs-wrap {
+  min-height: 400px;
+}
+.sjs .author {
+  font-size: 18px;
+  color: #3c3c3c;
+  font-weight: 400;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.sjs .des {
+  margin-left: 15px;
+  font-size: 14px;
+  color: #b2b2b2;
+}
+.tags span {
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  font-size: 12px;
+  color: #ff6fa2;
+  padding: 0 5px;
+  margin: 0 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.tags span:hover {
+  background: #ff6fa2;
+  color: #fff;
+}
+
+/*幻灯定制*/
+.sfdzhd {
+  position: relative;
+}
+.vitara_slide_in .vitara_slide {
+  height: 610px;
+  padding-top: 50px;
+}
+.home-section-first-menus {
+  top: 70px !important;
+}
+.vitara_slide_in .vitara_slide ul li {
+  width: 100%;
+  height: 100%;
+}
+.home-section-first-menus .main-menus .sub {
+  height: 450px;
+}
+/*图标*/
+.home-section-division {
+  background: #fff;
+}
+.home-section-division .container {
+  overflow: visible;
+  max-width: 1330px;
+  margin: 0 auto;
+}
+.home-section-division .home-division {
+  overflow: hidden;
+}
+.home-section-division .home-division ul {
+  margin: 0 -14px;
+  overflow: hidden;
+}
+.home-section-division .home-division li {
+  float: left;
+  line-height: 1;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 14px;
+}
+.home-section-division .home-division a {
+  color: #525252;
+  display: block;
+  padding: 20px 0 10px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+.home-section-division .home-division li h3 {
+  font-size: 13px;
+  line-height: 1;
+  margin: 10px 0;
+  color: #43484d;
+  font-weight: 400;
+}
+.home-section-division .home-division li p {
+  font-size: 13px;
+  color: #9a9a9a;
+  display: none;
+}
+.home-section-division .home-division li h3 .go {
+  background: #ff6fa2;
+  display: none;
+  height: 14px;
+  line-height: 14px;
+  padding: 2px 2px 2px 5px;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.ico-go {
+  width: 4px;
+  height: 6px;
+  background-image: url(https://images.uiiiuiii.com/wp-content/uploads/2020/03/uiii-go-1.png);
+  background-position: 50%;
+}
+.home-section-division .home-division li h3 .go i {
+  vertical-align: middle;
+  margin: -2px 3px 0;
+}
+.ico-go,
+.ico-ji {
+  display: inline-block;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.home-section-division .home-division li > div:hover .item-thumb {
+  transform: scale(1.2);
+}
+.home-section-division .home-division a:hover .item-thumb,
+.home-section-division .home-division a:hover h3 {
+  color: #ff6fa2;
+}
+.home-section-division .home-division a:hover .icon-inspiration-nav-1:before {
+  content: "\e82c";
+}
+.home-section-division .home-division a:hover .icon-tool-nav-1:before {
+  content: "\e82a";
+}
+.home-section-division .home-division a:hover .icon-course-nav-1:before {
+  content: "\e82e";
+}
+@media screen and (min-width: 768px) {
+  .home-section-division .home-division a {
+    text-align: left;
+    padding: 22px 10px 30px 50px;
+  }
+  .home-section-division .home-division li .item-thumb {
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home-section-division .home-division li p {
+    display: block;
+  }
+  .home-section-division .home-division li h3 .go {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 1330px) {
+  .home-section-division .home-division a {
+    padding-right: 60px;
+    padding-left: 106px;
+  }
+  .home-section-division .home-division li .item-thumb {
+    top: 15px;
+    left: 20px;
+    transition: all 0.3;
+  }
+  .home-section-division .home-division li h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .home-section-division .home-division a {
+    padding-right: 60px;
+    padding-left: 106px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-style .header-banner-left .menu li {
+    padding-bottom: 0 !important;
+  }
+  .header-banner-left ul {
+    padding-left: 12px !important;
+  }
+  .social-top .logo {
+    line-height: 34px;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+  .show-menu-box .header-logo .logo {
+    margin-bottom: 0;
+  }
+}
+.post-thumb {
+  border-radius: 5px !important;
+  object-fit: cover;
+}
+.b2-widget-post-thumb-img {
+  border-radius: 5px !important;
+}
+.b2-widget-list-ul .b2-widget-box:hover {
+  background: #f9f9f9;
+  transition: 0.5s;
+}
+.b2-widget-list-ul .b2-widget-box:hover h2 {
+  text-decoration: none;
+}
+.post-list-item:hover {
+  margin-top: -2px;
+  transition: 0.3s;
+}
+.sjs-wrap .item {
+  cursor: pointer;
+}
+.sjs-wrap .item:hover {
+  margin-top: 18px;
+  transition: 0.3s;
+}
+.widget ul li {
+  margin-top: 20px;
+}
+/*
+     * B2登录注册美化
+     */
+.login-box-content {
+  margin-top: 0;
+  width: auto;
+  display: flex;
+  position: relative;
+  background: #fff;
+  width: 750px;
+  max-width: 100%;
+}
+.login-box-img {
+  width: 50%;
+  position: relative;
+  background: url("https://website-1259765984.cos.ap-shanghai.myqcloud.com/images/dly.jpg");
+  background-size: 100% 100%;
+}
+.login-box-img .desc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.8) 100%);
+}
+.login-box-img > div {
+  padding: 30px;
+}
+.login-box-img .desc h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.login-box-img .desc p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+.login-box-content .login-box-top {
+  width: 50%;
+}
+.site-footer-nav {
+  /* display: none !important; */
+}
+@media screen and (max-width: 1024px) {
+  .recomUser {
+    display: none;
+  }
+  .createUser ul li {
+    width: 50%;
+    padding: 0 5px;
+  }
+  .createUser ul li .item {
+    height: 380px;
+  }
+  .createUser {
+    margin-bottom: 20px !important;
+  }
+  .login-box-img {
+    display: none !important;
+  }
+  .login-box-content .login-box-top {
+    width: 100% !important;
+  }
+  .sjs-wrap {
+    min-height: 820px !important;
+  }
+}
